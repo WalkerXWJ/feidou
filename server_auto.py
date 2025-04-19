@@ -18,7 +18,7 @@ class MacStatusBarApp(rumps.App):
         self.last_update_time = datetime.now()
         # 简化显示 ｜
         #self.title = f"📢 {self.message}"
-        self.title = f"｜ {self.message}"
+        self.title = f":{self.message}"
         
         if self.timer and self.timer.is_alive():
             self.timer.cancel()
@@ -93,7 +93,7 @@ def start_server(host, port, app):
 def main():
     # app = MacStatusBarApp("Message Server")
     # 简化显示
-    app = MacStatusBarApp("🟢🟡🟠")
+    app = MacStatusBarApp(":000000")
     
     # 启动广播线程
     broadcast_thread = threading.Thread(target=broadcast_server_ip)
