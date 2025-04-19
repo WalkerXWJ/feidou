@@ -1,0 +1,13 @@
+2025-04-19 10:08:39,140 [WARNING] PyTouchBar 不可用，回退到控制台模式
+2025-04-19 10:08:39,142 [INFO] 服务器启动: 0.0.0.0:65432
+2025-04-19 10:10:29,328 [INFO] 客户端连接: ('192.168.207.157', 49130)
+2025-04-19 10:10:35,196 [INFO] 收到消息: nih
+2025-04-19 10:11:35,203 [INFO] 消息已清除
+2025-04-19 10:13:13,265 [WARNING] Touch Bar 不可用: cannot import name 'PyTouchBar' from 'PyTouchBar' (/Users/fdou/Library/Python/3.9/lib/python/site-packages/PyTouchBar/__init__.py)
+2025-04-19 10:13:13,266 [INFO] 运行在控制台模式
+2025-04-19 10:13:13,267 [INFO] 服务器启动: 0.0.0.0:65432
+2025-04-19 10:15:39,967 [ERROR] Touch Bar 初始化失败: name 'NSString' is not defined
+2025-04-19 10:15:39,969 [INFO] 服务器启动: 0.0.0.0:65432
+2025-04-19 11:14:25,108 [INFO] 环境验证通过
+2025-04-19 11:14:25,110 [ERROR] Touch Bar 初始化失败: name 'TouchBarItems' is not defined
+2025-04-19 11:14:25,110 [INFO] 服务器启动，等待连接...
